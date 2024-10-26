@@ -13,23 +13,45 @@ while True == True:
         n2 = int(input("Digite putro numero: "))
         n3 = n1+n2
         print(f"A soma entre {n1}+{n2} é igual a {n3}")
+        while True == True:
+            n4 = int(input("digite outro numero"))
+            n3 = n3+n4
+            print(f"A soma entre é igual a {n3}")
+
+
+
+
+
+
     elif escolha == 1:
         print("voce escolheu subtração")
         n1 = int(input("digite um numero: "))
         n2 = int(input("Digite putro numero: "))
         n3 = n1-n2
         print(f"A subttração entre {n1}-{n2} é igual a {n3}")
+        while True == True:
+            n4 = int(input("digite outro numero"))
+            n3 = n3-n4
+            print(f"A subtração entre é igual a {n3}")
     elif escolha == 2:
         print("voce escolheu multiplicação")
         n1 = int(input("digite um numero: "))
         n2 = int(input("Digite putro numero: "))
         n3 = n1*n2
         print(f"A mult entre {n1}*{n2} é igual a {n3}")
+        while True == True:
+            n4 = int(input("digite outro numero"))
+            n3 = n3*n4
+            print(f"A mult entre é igual a {n3}")
     elif escolha == 3:
         print("voce escolheu divisão")
         n1 = int(input("digite um numero: "))
         n2 = int(input("Digite putro numero: "))
         n3 = n1/n2
         print(f"A divisao entre {n1}/{n2} é igual a {n3}")
+        while True == True:
+            n4 = int(input("digite outro numero"))
+            n3 = n3/n4
+            print(f"A divisao entre é igual a {n3}")
     else:
         print("opção invalida")
